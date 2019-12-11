@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@charset "utf-8";
+
+// google fonts
+@import url('https://fonts.googleapis.com/css?family=Slabo+13px&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+// color palette
+$purple: #8A4D76;
+
+$bcw-dark-blue: #152a38;
+$bcw-blue: #29435c;
+$bcw-green: #556e53;
+$bcw-white: #d1d4c9;
+
+// bulma overrides
+$title-family: 'Slabo 13px', serif;
+$subtitle-family: 'Roboto Mono', sans-serif;
+
+$body-background-color: $bcw-white;
+
+$primary: $bcw-blue;
+
+@import "../node_modules/bulma/bulma.sass";
