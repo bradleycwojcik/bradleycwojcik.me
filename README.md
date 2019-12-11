@@ -1,5 +1,7 @@
 # bradleycwojcik.me
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/900e0f8f-8a13-4af5-86d6-645bcacbbf0c/deploy-status)](https://app.netlify.com/sites/bradleycwojcik/deploys)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
 ## Development server
