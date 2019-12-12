@@ -10,22 +10,29 @@
       <div class="hero-head">
         <nav class="navbar">
           <div class="container">
-            <div class="navbar-menu">
+            <div class="navbar-brand">
+              <span class="navbar-burger burger" #navBurger data-target="navbarMenu" (click)="toggleNavbar()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu" #navMenu>
               <div class="navbar-end">
                 <span class="navbar-item">
                   <a class="button is-small is-primary" target="_blank" href="https://github.com/bradleycwojcik">
-                    <span>GitHub</span>
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
+                    <span>GitHub</span>
                   </a>
                 </span>
                 <span class="navbar-item">
                   <a class="button is-small is-primary" target="_blank" href="https://twitter.com/bradleycwojcik">
-                    <span>Twitter</span>
                     <span class="icon">
                       <i class="fab fa-twitter"></i>
                     </span>
+                    <span>Twitter</span>
                   </a>
                 </span>
               </div>
